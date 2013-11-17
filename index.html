@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <title>Map Tests</title>
+
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <!-- App Stylesheet -->
+        <link rel="stylesheet" href="build/css/gameplate.css">
+
+        <!-- Zynga Viewporter lib, sets up mobile device browsers properly -->
+        <script src="js/vendor/zynga/viewporter.js"></script>
+        <script src="js/vendor/zynga/viewporter.native.js"></script>
+    </head>
+
+    <body>
+        <!-- Main Content -->
+        <select id="switch"></select>
+        <button id="fullscreen">Go Fullscreen</button>
+        <section id="viewporter">
+            <div id="game"></div>
+        </section>
+
+        <!-- jQuery
+        <script src="//code.jquery.com/jquery-2.0.3.min.js"></script> -->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery/jquery-2.0.3.min.js"><\/script>')</script>
+
+        <!-- TweenLite
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.1/TweenLite.min.js"></script>
+        <script>window.TweenLite || document.write('<script src="js/vendor/tween/TweenLite.min.js"><\/script>')</script> -->
+
+        <!-- TweenLite EasePack
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.1/easing/EasePack.min.js"></script>
+        <script>window.Elastic || document.write('<script src="js/vendor/tween/EasePack.min.js"><\/script>')</script> -->
+
+        <!-- TweenLite CSS Plugin
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.1/plugins/CSSPlugin.min.js"></script>
+        <script>window.CSSPlugin || document.write('<script src="js/vendor/tween/CSSPlugin.min.js"><\/script>')</script> -->
+
+        <!-- main js modules -->
+        <script src="js/vendor/require.js" data-main="js/main"></script>
+    </body>
+</html>
